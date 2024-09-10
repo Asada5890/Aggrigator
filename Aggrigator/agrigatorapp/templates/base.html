@@ -1,0 +1,24 @@
+<!-- base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- Add any common CSS or JavaScript files here -->
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <nav>
+            <!-- Add navigation menu items here -->
+            <ul>
+                <li><a href="{% url 'index' %}">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    {% block content%}{% endblock content %}
+
+</body>
+
+</html>
